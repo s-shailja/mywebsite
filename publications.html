@@ -41,54 +41,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	});
 </script>
 <!-- start-smoth-scrolling -->
-<style>
 
-  .slider-container {
-    width: 500px;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto; /* Center justify the container */
-  }
-
-  .slider-container img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-    .slider-container img.active {
-      opacity: 1;
-    }
-
-    .arrow {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 40px;
-      height: 40px;
-      background-color: #f2f2f2;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 40px;
-      font-size: 24px;
-      cursor: pointer;
-      user-select: none;
-    }
-
-    .arrow.left {
-      left: 10px;
-    }
-
-    .arrow.right {
-      right: 10px;
-    }
-  </style>
 </head>
 	
 <body>
@@ -113,13 +66,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--francisco">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item"><a href="index.html" class="menu__link"><span class="menu__helper">About me</span></a></li>
+							<li class="menu__item"><a href="index.html" class="menu__link"><span class="menu__helper">Home</span></a></li>
 							<li class="menu__item"><a href="research.html" class="menu__link"><span class="menu__helper">Research</span></a></li>
 							<li class="menu__item"><a href="images/CV.pdf" class="menu__link" target="_blank"><span class="menu__helper">CV</span></a></li>
 							<li class="menu__item menu__item--current"><a href="publications.html" class="menu__link" ><span class="menu__helper">Publications</span></a></li>
-							<li class="menu__item"><a href="teachingPortfolio.html" class="menu__link"><span class="menu__helper">Teaching & Mentoring</span></a></li>
-							<li class="menu__item"><a href="awards.html" class="menu__link"><span class="menu__helper">Awards</span></a></li>
-							<!-- <li class="menu__item"><a href="news.html" class="menu__link" ><span class="menu__helper">News</span></a></li> -->
+							<li class="menu__item"><a href="news.html" class="menu__link" ><span class="menu__helper">News</span></a></li>
 							<li class="menu__item"><a href="#CONTACT" class="menu__link"><span class="menu__helper">Contact</span></a></li>
 						</ul>
 					</nav>
@@ -132,7 +83,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- banner -->
 	<div class="banner1">
 		<div class="container">
-			<h2 class="" data-wow-delay="0s"><a href="index.html">About me</a> / <span>Publications</span></h2>
+			<h2 class="animated wow slideInLeft" data-wow-delay="0s"><a href="index.html">Home</a> / <span>Publications</span></h2>
 		</div>
 	</div>
 <!-- //banner -->
@@ -143,52 +94,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="container content">
              <p>Visit my <a href="https://scholar.google.com/citations?user=c8I8p5gAAAAJ&hl=en">Google Scholar</a> profile here.</p>
              </br></br>
-			<h2 id="technical-reports-and-publications">Peer-reviewed journal publications</h2>
+			<h2 id="technical-reports-and-publications">Publications</h2>
 			</br>
-			<ul>	
-				<li><strong>Shailja, S.</strong>, et al. <strong>"AI-based analysis of the shunt treatment in pre- and post-surgery
-					computed tomography brain scans of iNPH patients"</strong>. <a href="https://www.medrxiv.org/content/10.1101/2023.06.28.23292008v1">Neurosurgery, 2023.</a></li>			
-				<br><li><strong>Shailja, S.</strong>, et al. <strong>"ReeBundle: a method for topological modeling of white matter pathways"</strong>.<a href = "https://ieeexplore.ieee.org/document/10223239"> IEEE Transactions on Medical Imaging, 2023.</a></li>
-				<br><li>Jiaxiang Jiang, Amil Khan, <strong>Shailja, S.</strong>, Samuel A Belteton, Michael Goebel, Daniel B Szymanski, B. S. Manjunath. <strong>"Segmentation, tracking, and sub-cellular feature extraction in 3D time-lapse images"</strong>. <a href="https://www.nature.com/articles/s41598-023-29149-z">Nature Scientific Reports, 2023</a>.</li>
-				<br><li> Angela Zhang, <strong>Shailja, S.</strong>, Cez Borba, Yishen Miao, Michael Goebel, Raphael Ruschel,  Kerrianne Ryan, William Smith,  B.S. Manjunath. <strong>"Automatic classification and neurotransmitter prediction of synapses in electron microscopy."</strong> <a href="https://www.cambridge.org/core/journals/biological-imaging/article/automatic-classification-and-neurotransmitter-prediction-of-synapses-in-electron-microscopy/33EC0CC0375B5BE539A708D9DB9110AD">Biological Imaging, 2022</a>.</li>
-				<br><li>Kao, P. Y., <strong>Shailja, S.</strong>, Jiang, J., Zhang, A., Khan, A., Chen, J. W., & Manjunath, B. S. <strong>"Improving Patch-Based Convolutional Neural Networks for MRI Brain Tumor Segmentation by Leveraging Location Information."</strong> <a href = "https://www.frontiersin.org/articles/10.3389/fnins.2019.01449/full">Frontiers in Neuroscience, 2020.</a></li>
+			<ul>
 
-			     
+				<li>Shailja, S., Angela Zhang, and B. S. Manjunath. "A computational geometry approach for modeling neuronal fiber pathways." International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, Cham, 2021. <a href="https://link.springer.com/chapter/10.1007/978-3-030-87237-3_17">MICCAI 2021</a>.</li>
+				<li> Angela Zhang, S. Shailja, Cez Borba, Yishen Miao, Michael Goebel, Raphael Ruschel,  Kerrianne Ryan, William Smith,  B.S. Manjunath. "Automatic Detection and Neurotransmitter Prediction of Synapses in Electron Microscopy." in preparation for Bioinformatics, 2021.
+				<li>Miolane, N., Caorsi, M., Lupo, U., Guerard, M., Guigui, N., Mathe, J., Shailja, S., ... & Long, Y. (2021). ICLR 2021 Challenge for Computational Geometry & Topology: Design and Results. arXiv preprint arXiv:2108.09810. <a href="https://arxiv.org/abs/2108.09810">arXiv</a>.</li>
+				<li> Shailja, S., Jiaxiang Jiang, and B. S. Manjunath. "Semi supervised segmentation and graph-based tracking of 3D nuclei in time-lapse microscopy." 2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI). IEEE, 2021. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9433831">ISBI 2021</a>.</li>
+			    <li>Kao, P. Y., Shailja, S., Jiang, J., Zhang, A., Khan, A., Chen, J. W., & Manjunath, B. S. "Improving Patch-Based Convolutional Neural Networks for MRI Brain Tumor Segmentation by Leveraging Location Information." <a href = "https://www.frontiersin.org/articles/10.3389/fnins.2019.01449/full">Frontiers in Neuroscience, 2020.</a>.</li>
+
+			     <li>Shailja, S., & Stetten G. "Descending Variance Graphs for Segmenting Neurological Structures." <a href = "https://shailjasah.github.io/DVG.pdf">Report</a>.</li>
+			     <li>Shailja, S., & Folsom T. "Navigation and Localization of an Autonomous Tricycle." <a href = "https://shailjasah.github.io/UW.pdf">Report</a>.</li>
+			     <li>Shailja, S., Bhowmick, S., & Mukhopadhyay, J. "Visual Navigation of Mobile Robots" <a href = "https://arxiv.org/abs/1712.05482">arXiv</a>.</li>
+
 			</ul>
-			<br>
-			<br>
-			<h2 id="technical-reports-and-publications">Peer-reviewed conference publications</h2>
-			<br><li>Zhang, Bowen*, <strong>Shailja, S.*</strong> (* denotes equal contributors), et al. <strong>ReeSPOT: Reeb Graph Models Semantic Patterns of Normalcy in Human Trajectories.</strong> Submitted to 27ths International Conference on Pattern Recognition (ICPR), 2024.</li>
-			<br><li> <strong>Shailja, S.</strong>, et al. <strong>"Scaffolding AI research projects lowers the mathematical difficulty in teaching AI to high school students''.</strong> American Society for Engineering Education Annual Conference. <a href="images/asee.pdf">ASEE 2024.</a> </li>
-			<br><li> <strong>Shailja, S.</strong>, Jefferson W. Chen, Scott T. Grafton, and B. S. Manjunath <strong>"ReTrace: Topological evaluation of white matter tractography algorithms using Reeb graphs."</strong>, Computational Diffusion MRI (CDMRI) Workshop in 26th International Conference on Medical Image Computing and Computer Assisted Intervention. <a href="https://doi.org/10.1101/2023.07.03.547451">MICCAI 2023</a>.</li>
-				
-			<br><li><strong>Shailja, S.</strong>, Angela Zhang, and B. S. Manjunath. <strong>"A computational geometry approach for modeling neuronal fiber pathways."</strong> International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, Cham, 2021. <a href="https://link.springer.com/chapter/10.1007/978-3-030-87237-3_17">MICCAI 2021</a>.</li>				
-				<br><li> <strong>Shailja, S.</strong>, Jiaxiang Jiang, and B. S. Manjunath. <swtrong>"Semi supervised segmentation and graph-based tracking of 3D nuclei in time-lapse microscopy."</strong>, 2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI). IEEE, 2021. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9433831">ISBI 2021</a>.</li>
-				
-				<br>
-			<br>
-			<h2 id="technical-reports-and-publications">Preprints</h2>	
-				<br><li><strong>Shailja, S.</strong>, Grafton, Scott T., and Manjunath, B.S. <strong>"A robust Reeb graph model of white matter fibers with application to Alzheimer's disease progression".</strong> <a href="https://www.biorxiv.org/content/10.1101/2022.03.11.482601v1">bioRxiv</a>.</li>
-				<br><li>Miolane, N., Caorsi, M., Lupo, U., Guerard, M., Guigui, N., Mathe, J., <strong>Shailja, S.</strong>, ... & Long, Y. <strong>"ICLR 2021 Challenge for Computational Geometry & Topology: Design and Results."</strong> arXiv preprint arXiv:2108.09810. <a href="https://arxiv.org/abs/2108.09810">arXiv</a>, 2021.</li>
-				<br><li><strong>Shailja, S.</strong>, & Stetten G. <strong>"Descending Variance Graphs for Segmenting Neurological Structures."</strong> <a href = "https://shailjasah.github.io/DVG.pdf">Report</a>.</li>
-			     <br><li><strong>Shailja, S.</strong>, & Folsom T. <strong>"Navigation and Localization of an Autonomous Tricycle."</strong> <a href = "https://shailjasah.github.io/UW.pdf">Report</a>.</li>
-			     <br><li><strong>Shailja, S.</strong>, Bhowmick, S., & Mukhopadhyay, J. <strong>"Visual Navigation of Mobile Robots"</strong> <a href = "https://arxiv.org/abs/1712.05482">arXiv</a>.</li>
-
 
 		</br>
 		</br>
 			<h2 id="posters-and-talks">Posters and Talks</h2>
 			</br>
 			<ul>
-				<li>Talk on "Artificial intelligence for automatic analysis of shunt treatment in pre- and post-surgery computed tomography brain scans of iNPH patients." In: Cottage Hospital Collaborative Research Symposium, Santa Barbara, 2024. <a href="images/CHRIApr19.pdf">Talk</a>.</li>
-				<br><li>Talk on "ReTrace: Topological insight to evaluation of white matter tractography using
-					Reeb graphs." In: CDMRI Workshop at the International Conference on Medical Image Computing and Computer Assisted Intervention, MICCAI 2023, Vancouver, Canada.	<a href="images/cdmri.pdf">Talk</a>.</li>
-				<br><li>Poster on: "Topological characterizations of spatial trajectories for neuroscience and beyond." In: iREDEFINE Workshop at the ECE Department Head Association annual conference (ECEDHA), March 17 - 19, 2023, Albuquerque, New Mexico. <a href="images/iredefine.jpg">Poster</a>.</li>
-				<br><li>Poster on: "A robust Reeb graph model of white matter fibers." In: Workshop on “Reconstructing Network Dynamics from Data: Applications to Neuroscience and Beyond” to be held from August 29 – September 2, 2022 at IPAM. <a href="images/ipam.pdf">Poster</a>.</li>
-				<br><li>Poster on: "A computational geometry approach for modeling neuronal fiber pathways." In: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)", September 27 - October 1st, 2021, Strasbourg, France. <a href="images/brain.jpg">Poster</a>.</li>
-				<br><li>Poster on: "Semi supervised segmentation and graph-based tracking of 3D nuclei in time-lapse microscopy." In: "IEEE 18th International Symposium on Biomedical Imaging (ISBI)", April 13 - 16, 2021, Nice, France. <a href="images/isbi.pptx">Poster</a>.</li>
-				<br><li>Talk on: "Slic Supervoxels improve nuclei segmentation in weakly annotated time-lapse video sequences." In: "International Symposium on Biomedical Imaging ", Iowa, US, 2020. <a href="images/ISBI2020.pdf">Slides</a></li>
-			    <br><li>Poster on: "Two-Level Ensemble Methods for Improving CNNs for MRI Brain Tumor Segmentation." In: "LIMPID/BisQue+IDEAS Joint Workshop on Scalable Image Informatics and Data Driven Materials Discovery", UCSB, US, 2020. <a href="images/limpid_poster.pdf">PDF</a>.</li>
+				<li>Poster on: "A computational geometry approach for modeling neuronal fiber pathways." In: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)", September 27 - October 1st, 2021, Strasbourg, France. <a href="images/brain.jpg">Poster</a>.</li>
+				<li>Poster on: "Semi supervised segmentation and graph-based tracking of 3D nuclei in time-lapse microscopy.". In: "IEEE 18th International Symposium on Biomedical Imaging (ISBI)", April 13 - 16, 2021, Nice, France. <a href="images/isbi.pptx">Poster</a>.</li>
+				<li>Talk on: "Slic Supervoxels improve nuclei segmentation in weakly annotated time-lapse video sequences" In: "International Symposium on Biomedical Imaging ", Iowa, US, 2020. <a href="images/ISBI2020.pdf">Slides</a></li>
+			    <li>Poster on: "Two-Level Ensemble Methods for Improving CNNs for MRI Brain Tumor Segmentation " In: "LIMPID/BisQue+IDEAS Joint Workshop on Scalable Image Informatics and Data Driven Materials Discovery", UCSB, US, 2020. <a href="images/limpid_poster.pdf">PDF</a>.</li>
 			    
 			    
 			   
@@ -196,76 +126,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					
 	    </div>	
 	</div>
-	<div class="slider-container">
-		<img class="active" src="images/posterECEDHA.jpg" alt="Image 1">
-		<img src="images/posterECE.jpg" alt="Image 2">
-		<img src="images/posterIPAM.jpg" alt="Image 3">
-		<img src="images/posterLIMPID.jpg" alt="Image 3">
-	  
-		<div class="arrow left">&#8592;</div>
-		<div class="arrow right">&#8594;</div>
-	  </div>
-	  
-	  <script>
-		var images = document.querySelectorAll('.slider-container img');
-		var arrows = document.querySelectorAll('.arrow');
-		var currentImage = 0;
-	  
-		function showImage(index) {
-		  images[currentImage].classList.remove('active');
-		  images[index].classList.add('active');
-		  currentImage = index;
-		}
-	  
-		function adjustImageSize() {
-		  var containerWidth = document.querySelector('.slider-container').offsetWidth;
-		  images.forEach(function (image) {
-			image.style.maxWidth = containerWidth + 'px';
-			image.style.maxHeight = '100%';
-		  });
-		}
-	  
-		window.addEventListener('resize', adjustImageSize);
-	  
-		arrows.forEach(function (arrow) {
-		  arrow.addEventListener('click', function () {
-			var direction = this.classList.contains('left') ? -1 : 1;
-			var newIndex = currentImage + direction;
-	  
-			if (newIndex < 0) {
-			  newIndex = images.length - 1;
-			} else if (newIndex >= images.length) {
-			  newIndex = 0;
-			}
-	  
-			showImage(newIndex);
-			adjustImageSize();
-		  });
-		});
-	  
-		// Initial adjustment of image size
-		adjustImageSize();
-	  </script>
-	  
 
 	<div class="footer"><a name="CONTACT"></a>
 		<div class="container">
 			<div class="footer-grids">
-				<div class="col-md-4 footer-grid " data-wow-delay=".01s">
+				<div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay=".01s">
                     <h3>Contact</h3>
                     <p>Email: shailja &alpha; ucsb.edu</p>
-                    <!-- <p>Phone: 805-284-4546</p> -->
+                    <p>Phone: 805-284-4546</p>
                     <p>Office: HFH 4162</p>
 					<div class="social">
 						<ul class="social-nav model-8">
 							<li><a href="https://facebook.com/shailja.shailja.100" class="facebook"><i></i></a></li>
-							<li><a href="https://www.twitter.com/shailja_12" class="twitter"><i> </i></a></li>
-							<li><a href="https://www.instagram.com/shailja_ss/" class="g"><i></i></a></li>
+							<li><a href="https://www.twitter.com/shailjasah12" class="twitter"><i> </i></a></li>
+							<li><a href="https://www.instagram.com/shailja_sah/" class="g"><i></i></a></li>
 							<!-- <li><a href="#" class="p"><i></i></a></li> -->
 						</ul>
 					</div>
 				</div>
-                <div class="col-md-4 footer-grid " data-wow-delay=".03s">
+                <div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay=".03s">
                     <br><br><br>
                     <!-- <p>Mail: MC XXX-XX</p> -->
                     <p>Vision Research Lab</p>
@@ -275,15 +154,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="clearfix"> </div>
 			</div>
 			<div class="footer-grids1">
-				<div class="footer-grids1-left ">
+				<div class="footer-grids1-left animated wow slideInLeft">
                     <ul>
-						<li><a href="index.html">About me</a></li>
+						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="research.html">Research</a></li>
 						<li><a href="images/CV.pdf">CV</a></li>
-						<li class="active"><a href="publications.html">Publications</a></li>
-						<li><a href="teachingPortfolio.html">Teaching & Mentoring</a></li>
-						<li><a href="awards.html">Awards</a></li>
-						<!-- <li><a href="news.html">News</a></li> -->
+						<li><a href="publications.html">Publications</a></li>
+						<li><a href="news.html">News</a></li>
 						<li><a href="#CONTACT">Contact</a></li>
 					</ul>
 				</div>
@@ -300,19 +177,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">
-		// $(document).ready(function() {
-		// 	/*
-		// 		var defaults = {
-		// 		containerID: 'toTop', // fading element id
-		// 		containerHoverID: 'toTopHover', // fading element hover id
-		// 		scrollSpeed: 1200,
-		// 		easingType: 'linear' 
-		// 		};
-		// 	*/
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
 								
-		// 	$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({ easingType: 'easeOutQuart' });
 								
-		// 	});
+			});
 	</script>
 <!-- //here ends scrolling icon -->
 </body>
